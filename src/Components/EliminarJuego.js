@@ -20,8 +20,6 @@ useEffect(() => {
   
 }, [])
 
-
-
 const eliminarLibro = () => {
     if(localStorage.getItem("juegos") != null){
         let lista = JSON.parse(localStorage.getItem("juegos"));

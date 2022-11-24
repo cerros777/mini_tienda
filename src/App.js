@@ -23,7 +23,6 @@ const App = () => {
     
             localStorage.setItem("libros", j);
         }
-        //console.log(localStorage.getItem("libros"))
     }, [])
 
     useEffect(() => {

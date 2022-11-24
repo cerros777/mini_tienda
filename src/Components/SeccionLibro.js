@@ -1,12 +1,8 @@
 import {React, useEffect} from 'react';
 import ModalLibro from './ModalLibro';
 
-
-
-
 function SeccionLibro() {  
     
-
 useEffect(() => {
     if(localStorage.getItem("libros") != null){
         let lista = JSON.parse(localStorage.getItem("libros"));

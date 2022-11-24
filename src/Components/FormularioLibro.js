@@ -58,7 +58,6 @@ function FormularioLibro(props) {
     return encontrado;
   }
 
-//console.log(esValido());
   return (
     <div className="formL">
       <h2 className="titform">Ingrese los datos del nuevo libro</h2>
