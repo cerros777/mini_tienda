@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.imagen {
+  background-image: -o-linear-gradient('url(/manzana.jpg');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav{
+  border-bottom: 1px solid whitesmoke;
+}
+
+.navbar-brand{
+  color: white;
+}
+
+.nombre{
+  border-top: 1px solid whitesmoke;
+  background-color: #1D1D36;
+  color: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.libro, .juegos{
+  border-top: 1px solid whitesmoke;
+  background-color: #1D1D36;
+  color: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.contain{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.formL{
+  background-color: #1D1D36;
+  min-height: 100vh;
+}
+
+.titform{
+  margin-top: 40px;
+  color: silver;
+  text-align: center;
+}
+
+.form{
+  margin-top: 20px;
+  margin-inline: 30%;
+  max-width: 700px;
+  border: 2px solid #8989e0;
+  padding: 10px;
+  background-color: silver;
+}
+
+.preguntaeliminar{
+  width: 400px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.fondojuegos{
+  background-image: url('/public/juegos.jpg');
+  background-size: cover;
+}
+
+.fondolibro{
+  background-image: url('/public/Books.jpg');
+  max-width: 100%;
+}
+
+.titulojuegos{
+  background-image: linear-gradient(to right, rgba(8, 139, 19, 0.993), rgb(245, 9, 9));
+  background-clip: text;
+  color: transparent;
+}
+
+select {
+  font-family: 'FontAwesome', 'sans-serif';
+}
