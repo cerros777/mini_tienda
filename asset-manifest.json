@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mini_tienda/static/css/main.3625dd67.css",
+    "main.js": "/mini_tienda/static/js/main.bc42f276.js",
+    "static/media/Books.jpg": "/mini_tienda/static/media/Books.0ce1df4031bd3075ddfb.jpg",
+    "static/media/juegos.jpg": "/mini_tienda/static/media/juegos.d6a419f09767b816bee1.jpg",
+    "index.html": "/mini_tienda/index.html",
+    "main.3625dd67.css.map": "/mini_tienda/static/css/main.3625dd67.css.map",
+    "main.bc42f276.js.map": "/mini_tienda/static/js/main.bc42f276.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3625dd67.css",
+    "static/js/main.bc42f276.js"
+  ]
+}
